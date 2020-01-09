@@ -12,6 +12,9 @@ namespace NNPP
     [RequireComponent(typeof(Camera))]
     public class NNPostProcessingEffect : MonoBehaviour
     {
+        public int RenderEvery = 20;
+        private RenderTexture renderedFrame;
+
         public NNStyle style = NNStyle.starry_night;
 
         private NNModel model;
@@ -29,8 +32,11 @@ namespace NNPP
 
         void OnRenderImage(RenderTexture src, RenderTexture dst)
         {
-            var predict = model.Predict(src);
-            Graphics.Blit(predict, dst);
+            if (Time.frameCount % RenderEvery == 0)
+            {
+                renderedFrame = model.Predict(src);
+            }
+            Graphics.Blit(renderedFrame, dst);
         }
 
     }

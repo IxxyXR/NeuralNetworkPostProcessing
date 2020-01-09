@@ -10,7 +10,9 @@ namespace NNPPUtil
 {
     public class NNRawModelParser : MonoBehaviour
     {
+        #if UNITY_EDITOR
         [MenuItem("Assets/ParseFromRawModel")]
+        #endif
         public static void Parse()
         {
             TextAsset tex = Selection.activeObject as TextAsset;

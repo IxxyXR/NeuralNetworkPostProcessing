@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\andyb\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\andyb\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_NNPostProcessing.-1195387112.00" t="ExcludeRecursive" />
+    <e p="C:\Users\andyb\Documents\Unity Projects\NeuralNetworkPostProcessing\NNPostProcessing" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="DelayedRender.cs" t="Include" />
+        <e p="NNPostProcessing" t="Include">
+          <e p="Resources" t="Include">
+            <e p="NNLayer.compute" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="NNCompute.cs" t="Include" />
+            <e p="NNLayerBase.cs" t="Include" />
+            <e p="NNLayers" t="Include">
+              <e p="Add.cs" t="Include" />
+              <e p="BatchNormalization.cs" t="Include" />
+              <e p="Concatenate.cs" t="Include" />
+              <e p="Conv2D.cs" t="Include" />
+              <e p="InputLayer.cs" t="Include" />
+              <e p="LeakyReLU.cs" t="Include" />
+              <e p="OutputLayer.cs" t="Include" />
+              <e p="ReLU.cs" t="Include" />
+              <e p="Tanh.cs" t="Include" />
+              <e p="UpSampling2D.cs" t="Include" />
+            </e>
+            <e p="NNModel.cs" t="Include" />
+            <e p="NNModelSerialize.cs" t="Include" />
+            <e p="NNPostProcessingEffect.cs" t="Include" />
+            <e p="SimpleCharacterController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Script" t="Include">
+          <e p="Editor" t="Include">
+            <e p="NNRawModelParser.cs" t="Include" />
+            <e p="TrailRecorder.cs" t="Include" />
+          </e>
+          <e p="KerasJsonParser.cs" t="Include" />
+          <e p="NNLayerExtention.cs" t="Include" />
+          <e p="Trail" t="Include">
+            <e p="CameraTrail.cs" t="Include" />
+            <e p="TrailPlayer.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="copydepth.shader" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="NNDebug.cs" t="Include" />
+            </e>
+            <e p="RenderDepth.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="NNPostProcessing.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
